@@ -52,12 +52,13 @@ final class TrackedButton {
 		$a = shortcode_atts(
 			array(
 				'id' => null,
+				'onclick' => '',
 			),
 			$atts,
 			'tracked_button'
 		);
 
-		$htmlButton = "<div><button class=\"tracked-button\" id=\"{$a["id"]}\">". $label ."</button></div>";
+		$htmlButton = "<div><button class=\"tracked-button\" id=\"{$a["id"]}\" onclick=\"{$a["onclick"]}()\">". $label ."</button></div>";
 
 		return $htmlButton;
 	}
