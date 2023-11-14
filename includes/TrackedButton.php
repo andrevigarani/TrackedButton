@@ -58,7 +58,8 @@ final class TrackedButton {
 			'tracked_button'
 		);
 
-		$htmlButton = "<div><button class=\"tracked-button\" id=\"{$a["id"]}\" onclick=\"{$a["onclick"]}()\">". $label ."</button></div>";
+        $a["onclick"] = !empty($a["onclick"]) ? $a["onclick"]."()" : '';
+		$htmlButton = "<div><button class=\"tracked-button\" id=\"{$a["id"]}\" onclick=\"{$a["onclick"]}\">". $label ."</button></div>";
 
 		return $htmlButton;
 	}
