@@ -1,0 +1,11 @@
+.tracked-button {
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-size: 13pt;
+	background-color: cornflowerblue;
+	color: white;
+	border-style: dotted;
+	font-style: italic;
+	float: right;
+	cursor: pointer;
+}
