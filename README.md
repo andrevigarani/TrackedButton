@@ -55,4 +55,4 @@ OU
 - Faça o download ou clone diretamente deste repositório para o diretório `wp-content/plugins/`.
 
    ```bash
-   git clone https://github.com/andrevigarani/tracked-button-reports.git
+   git clone https://github.com/andrevigarani/TrackedButton.git

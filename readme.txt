@@ -1,8 +1,8 @@
 === Tracked Button ===
 Requires PHP: 5.6
 Stable tag: 0.0.1
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 PLugin WordPress utilizado para mapeamento e registro de click's em botões
 
@@ -53,3 +53,9 @@ Lembre-se de que este shortcode cria um botão rastreável, permitindo o registr
 	* Clique no botão "Code" e selecione "Download ZIP".
 	* Extraia o arquivo ZIP baixado para obter o código do plugin.
 	* Cole a pasta extraída no diretório wp-content/plugins do seu projeto WordPress
+
+	OU
+
+	* Faça o download ou clone diretamente deste repositório para o diretório `wp-content/plugins/`.
+
+	git clone https://github.com/andrevigarani/TrackedButton.git
